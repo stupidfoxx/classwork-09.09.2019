@@ -1,0 +1,21 @@
+.test {
+	color: #000;
+	background-color: yellow;
+	font-size: 12px;
+	color: green;
+}
+
+.test div:nth-child(n+6){
+	background-color: #fff;
+	color: #000;
+}
+
+.test div:nth-last-child(-n+3){
+	background-color: red;
+	color: #000;
+}
+
+/*Задаем цвет для вложеного елемента */
+.testing > a{
+	color: green;
+}
